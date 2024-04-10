@@ -28,6 +28,8 @@ jobs:
         uses: baileyjm02/markdown-to-pdf@v1.2.0
         with:
           input_path: docs
+          images_dir: docs/images
+          image_import: ./images
           output_dir: _site
           build_html: false
       - name: Setup Pages
